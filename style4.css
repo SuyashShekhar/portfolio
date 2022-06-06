@@ -1,0 +1,182 @@
+body{
+    border: 1px solid black;
+    padding: 2px;
+}
+ 
+
+
+#nav{
+    height: 22px;
+    width: 100%;
+    background: #FFFFFF;
+
+}
+
+#nav h3{
+    margin: 3px;
+    margin-left: 3px;
+}
+
+#portfolio{
+    display: flex;
+    height: 100%;
+    background: #F5F5F5;
+    margin-top: 10px;
+
+    
+}
+#part1{
+    
+   
+    flex-direction: column;
+    margin: 20px;
+    background: #FFFFFF;
+    height: 85%;
+    width: 27%;
+    margin-top: 30px;
+}
+#part2{
+    
+    
+    flex-direction: column;
+    width: 70%;
+    margin-top: 30px;
+   
+   
+}
+
+#profile-photo{
+    height: 50% ;
+    width: 70% ;
+    border-radius: 50%;
+}
+#profile{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+}
+#about{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#png{
+    height: 18px;
+    width: 18px;
+    margin: 10px;
+    
+}
+#contactid{
+    display: flex;
+    flex-direction: row;
+}
+
+#mail{
+    display: flex;
+    flex-direction: row;
+}
+
+#mail a{
+   margin: 10px;
+}
+
+#contactid a{
+   margin: 10px;
+}
+#education{
+    height: 17%;
+    width: 90%;
+    background:#FFFFFF ;
+    padding: 10px;
+    margin-bottom: 20px;
+   
+}
+#workexperience{
+    
+    height: 17%;
+    width: 90%;
+    background:#FFFFFF ;
+    padding: 10px;
+   
+    margin-top: 20px;
+    
+}
+
+#Academic{
+   
+    height: 40%;
+    width: 90%;
+    background:#FFFFFF ;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
+#Achievements{
+   
+    height: 13%;
+    width: 90%;
+    background:#FFFFFF ;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+@media (max-width : 650px){
+   
+
+    #portfolio{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+     
+    #part1{
+        width: 85%;
+      
+    }
+
+    #part2{
+        width: 85%;
+       
+        
+        
+    }
+
+   
+
+    #education{
+   width: 95%;
+} 
+
+#workexperience{
+    width: 95%;
+    height: 30%;
+    
+}
+
+#Academic{
+width: 95%;
+height: 40%;  
+}
+
+#Achievements{
+width: 95%;
+height: 20%;
+}
+
+#contactid{
+   flex-direction: column;
+}
+}
+
+@media (max-width : 900px){
+   #mail{
+       flex-direction: column;
+   }
+}
+
